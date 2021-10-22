@@ -60,9 +60,9 @@ def robot():
                         dangerlevel = dangerlevel -1 
                     if straights[straight][readon].content == playerrole:
                         dangerlevel = dangerlevel +1
-                    if dangerlevel == 2 :
-                        close (straight)
                     if dangerlevel == -2 :
+                        close (straight)
+                    if dangerlevel == 2 :
                         if state == robotrole:
                             close (straight)
                     if straight == 7:
